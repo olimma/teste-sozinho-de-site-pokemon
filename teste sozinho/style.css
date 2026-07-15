@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Merienda:wght@300..900&display=swap');
+
+*{
+
+    margin: 0px
+}
+
+header{
+    background-color: rgb(1, 7, 1);
+    height: 126px;
+    display: flex;
+    align-items: center;
+
+}
+
+#Pokemons{
+    width: 228px;
+    margin: 25px;
+}
+
+.botaoheader{
+    color: rgb(239, 243, 247);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Merienda;
+    margin-left: 100px;
+}
+
+.sessao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+}
+.textosessao{
+    font-size: 25px;
+    padding: 70px;
+}
+.imagemsessao{
+    width: 750px;
+    margin: 70px;
+    border-radius: 70px;
+
+}
